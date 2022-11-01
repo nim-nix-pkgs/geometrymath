@@ -1,0 +1,137 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1662018438,
+        "narHash": "sha256-QtNtU6+LX3Wokxf0zlFwKTFOcn6TeDjKQZ+DA9OYtvM=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "b1fe8340736e3a85d25c709ac3dfd82a55c03cbf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "geometrymath-main": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-geometrymath-main": "src-geometrymath-main"
+      },
+      "locked": {
+        "dir": "main",
+        "lastModified": 1665581379,
+        "narHash": "sha256-W9FdEpGnhm1EhJYi80ejLEMDmoLG8oFVnqILaPopHnY=",
+        "owner": "nim-nix-pkgs",
+        "repo": "geometrymath",
+        "rev": "c1d924ffc92be25ce1d259eeb72eeeb8dabbfc57",
+        "type": "github"
+      },
+      "original": {
+        "dir": "main",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "geometrymath",
+        "type": "github"
+      }
+    },
+    "geometrymath-v1_0_0": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-geometrymath-v1_0_0": "src-geometrymath-v1_0_0"
+      },
+      "locked": {
+        "dir": "v1_0_0",
+        "lastModified": 1665581379,
+        "narHash": "sha256-W9FdEpGnhm1EhJYi80ejLEMDmoLG8oFVnqILaPopHnY=",
+        "owner": "nim-nix-pkgs",
+        "repo": "geometrymath",
+        "rev": "c1d924ffc92be25ce1d259eeb72eeeb8dabbfc57",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v1_0_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "geometrymath",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1667110639,
+        "narHash": "sha256-4FbPESZ5LbqQxkJJJBAfk/zKgF9h/4kyUwjjpJwYlbc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f38a1f04d1bec1feb61fd101a0539ae2002a7087",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "geometrymath-main": "geometrymath-main",
+        "geometrymath-v1_0_0": "geometrymath-v1_0_0",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "src-geometrymath-main": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1664279861,
+        "narHash": "sha256-bciT6q96Rpjt1HU5t6Wpo1/3SYhkZVFi5YDcYa2QXTI=",
+        "owner": "can-lehmann",
+        "repo": "geometrymath",
+        "rev": "58e94d9d086eb117f29b8b35a6f858545df611f8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "can-lehmann",
+        "ref": "refs/heads/main",
+        "repo": "geometrymath",
+        "type": "github"
+      }
+    },
+    "src-geometrymath-v1_0_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1664279861,
+        "narHash": "sha256-bciT6q96Rpjt1HU5t6Wpo1/3SYhkZVFi5YDcYa2QXTI=",
+        "owner": "can-lehmann",
+        "repo": "geometrymath",
+        "rev": "58e94d9d086eb117f29b8b35a6f858545df611f8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "can-lehmann",
+        "ref": "refs/tags/v1.0.0",
+        "repo": "geometrymath",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
