@@ -164,11 +164,11 @@
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1668748772,
-        "narHash": "sha256-WoIVyRP9a1J9TJVVoLSEn4PIm/bhMXa3dpWofmLBTp4=",
+        "lastModified": 1668754548,
+        "narHash": "sha256-X/8g7Comzf/fh5AOk3UYCQRDbLlEVIabA1XTXF/tt/Y=",
         "owner": "nim-nix-pkgs",
         "repo": "geometrymath",
-        "rev": "16c145de7e36542c923864be205d6e29a99ae65a",
+        "rev": "84deaf8d419c79a52b3a596c8e952682ca5b3032",
         "type": "github"
       },
       "original": {
@@ -191,11 +191,11 @@
       },
       "locked": {
         "dir": "v1_0_0",
-        "lastModified": 1668748772,
-        "narHash": "sha256-WoIVyRP9a1J9TJVVoLSEn4PIm/bhMXa3dpWofmLBTp4=",
+        "lastModified": 1668754548,
+        "narHash": "sha256-X/8g7Comzf/fh5AOk3UYCQRDbLlEVIabA1XTXF/tt/Y=",
         "owner": "nim-nix-pkgs",
         "repo": "geometrymath",
-        "rev": "16c145de7e36542c923864be205d6e29a99ae65a",
+        "rev": "84deaf8d419c79a52b3a596c8e952682ca5b3032",
         "type": "github"
       },
       "original": {
